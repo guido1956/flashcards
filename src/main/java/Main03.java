@@ -22,9 +22,9 @@ public class Main03 {
     }
 
     private static void toonKaart(FlashCard fc) {
-        System.out.println("vraag    : " + fc.getVoorkant());
-        System.out.println("antwoord :" + fc.getAchterkant());
-        System.out.print("Kaart gekend: ");
+        System.out.println("vraag        : " + fc.getVoorkant());
+        System.out.println("antwoord     : " + fc.getAchterkant());
+        System.out.print(  "Kaart gekend : ");
         if (fc.isGekend()) {
             System.out.println("JA");
         } else {
