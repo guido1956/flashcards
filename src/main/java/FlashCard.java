@@ -4,8 +4,8 @@ public class FlashCard {
     private boolean isGekend;
     //constructor 1
     public FlashCard() {
-       // voorkant = "";
-       // achterkant = "";
+        voorkant = "";
+        achterkant = "";
     }
     // constructor 2
     public FlashCard(String voorkant, String achterkant) {
@@ -25,7 +25,12 @@ public class FlashCard {
     public void setAchterkant(String achterkant) {
         this.achterkant = achterkant;
     }
-
+    public boolean isGekend() {
+        return isGekend;
+    }
+    public void setGekend(boolean gekend) {
+        isGekend = gekend;
+    }
 }
 
 
