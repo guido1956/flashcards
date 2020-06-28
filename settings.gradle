@@ -1,3 +1,4 @@
 rootProject.name = 'flashcards'
 include 'uitprobeersels'
+include 'lab'
 
