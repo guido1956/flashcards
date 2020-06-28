@@ -6,6 +6,10 @@ public class FlashCards {
     public FlashCards() {
     }
 
+    public void addFlashCard(FlashCard fc) {
+        addFlashCard(fc);
+    }
+
     public int getAantalFlashCards() {
         return flashCards.size();
     }

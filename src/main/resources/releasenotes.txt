@@ -2,6 +2,7 @@ Sprint 02
 US 01-006 US 01-009 US 01-010
 class Main04 (Demo Arrays)
 class FlashCards (ArrayList) versie 1
+      addFlashCard()
       getAantalFlashCards()
       getFlashCard()
       removeFlashCard()
