@@ -4,9 +4,9 @@ public class FlashCard {
     private boolean isGekend;
     //constructor 1
     public FlashCard() {
-        voorkant = "";
-        achterkant = "";
+        this("","");
     }
+
     // constructor 2
     public FlashCard(String voorkant, String achterkant) {
         this.voorkant = voorkant;
